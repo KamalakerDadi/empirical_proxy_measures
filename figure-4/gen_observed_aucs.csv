@@ -1,0 +1,7 @@
+target,auc_score,imaging
+Neuroticism,0.822773860817339,yes
+Neuroticism,0.826061309756962,no
+Age,0.954559417523954,yes
+Age,0.9411671633922,no
+Fluid intelligence,0.76633260002427,yes
+Fluid intelligence,0.796862461491488,no
