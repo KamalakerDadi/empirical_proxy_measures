@@ -1,0 +1,601 @@
+Estimator,Permuted,Type,fold,group,model_testing,roc,target
+RandomForest,no,Non-imaging,0,low vs high,validation,0.7548094709581946,Neuroticism
+RandomForest,no,Non-imaging,0,low vs high,generalization,0.7706125380038423,Neuroticism
+RandomForest,no,Non-imaging,1,low vs high,validation,0.7923603403625601,Neuroticism
+RandomForest,no,Non-imaging,1,low vs high,generalization,0.7744768059985452,Neuroticism
+RandomForest,no,Non-imaging,2,low vs high,validation,0.7113335186729682,Neuroticism
+RandomForest,no,Non-imaging,2,low vs high,generalization,0.778345270736575,Neuroticism
+RandomForest,no,Non-imaging,3,low vs high,validation,0.7678571428571428,Neuroticism
+RandomForest,no,Non-imaging,3,low vs high,generalization,0.7711021580586799,Neuroticism
+RandomForest,no,Non-imaging,4,low vs high,validation,0.7372991548249279,Neuroticism
+RandomForest,no,Non-imaging,4,low vs high,generalization,0.7720692742431873,Neuroticism
+RandomForest,no,Non-imaging,5,low vs high,validation,0.7896296296296297,Neuroticism
+RandomForest,no,Non-imaging,5,low vs high,generalization,0.7773692947605991,Neuroticism
+RandomForest,no,Non-imaging,6,low vs high,validation,0.8121521335807049,Neuroticism
+RandomForest,no,Non-imaging,6,low vs high,generalization,0.7720590155372765,Neuroticism
+RandomForest,no,Non-imaging,7,low vs high,validation,0.7466870540265037,Neuroticism
+RandomForest,no,Non-imaging,7,low vs high,generalization,0.7667524667524668,Neuroticism
+RandomForest,no,Non-imaging,8,low vs high,validation,0.7736773954864965,Neuroticism
+RandomForest,no,Non-imaging,8,low vs high,generalization,0.7730265980265981,Neuroticism
+RandomForest,no,Non-imaging,9,low vs high,validation,0.7548076923076925,Neuroticism
+RandomForest,no,Non-imaging,9,low vs high,generalization,0.7691688582992929,Neuroticism
+RandomForest,no,Non-imaging,10,low vs high,validation,0.7548076923076923,Neuroticism
+RandomForest,no,Non-imaging,10,low vs high,generalization,0.7691660604704083,Neuroticism
+RandomForest,no,Non-imaging,11,low vs high,validation,0.7569340329835083,Neuroticism
+RandomForest,no,Non-imaging,11,low vs high,generalization,0.7710821069516721,Neuroticism
+RandomForest,no,Non-imaging,12,low vs high,validation,0.7585824002961044,Neuroticism
+RandomForest,no,Non-imaging,12,low vs high,generalization,0.7725523660306269,Neuroticism
+RandomForest,no,Non-imaging,13,low vs high,validation,0.7379472693032016,Neuroticism
+RandomForest,no,Non-imaging,13,low vs high,generalization,0.7730363904276948,Neuroticism
+RandomForest,no,Non-imaging,14,low vs high,validation,0.7598705501618123,Neuroticism
+RandomForest,no,Non-imaging,14,low vs high,generalization,0.7725421073247161,Neuroticism
+RandomForest,no,Non-imaging,15,low vs high,validation,0.7939703153988869,Neuroticism
+RandomForest,no,Non-imaging,15,low vs high,generalization,0.7701327103501017,Neuroticism
+RandomForest,no,Non-imaging,16,low vs high,validation,0.7855555555555557,Neuroticism
+RandomForest,no,Non-imaging,16,low vs high,generalization,0.7696486859530338,Neuroticism
+RandomForest,no,Non-imaging,17,low vs high,validation,0.7989930654507458,Neuroticism
+RandomForest,no,Non-imaging,17,low vs high,generalization,0.7793058586536847,Neuroticism
+RandomForest,no,Non-imaging,18,low vs high,validation,0.8097529379106134,Neuroticism
+RandomForest,no,Non-imaging,18,low vs high,generalization,0.7710932982672113,Neuroticism
+RandomForest,no,Non-imaging,19,low vs high,validation,0.7770623366927958,Neuroticism
+RandomForest,no,Non-imaging,19,low vs high,generalization,0.7686787719396415,Neuroticism
+RandomForest,no,Non-imaging,20,low vs high,validation,0.7752391566824557,Neuroticism
+RandomForest,no,Non-imaging,20,low vs high,generalization,0.7667524667524668,Neuroticism
+RandomForest,no,Non-imaging,21,low vs high,validation,0.8226612380864253,Neuroticism
+RandomForest,no,Non-imaging,21,low vs high,generalization,0.7691679256896649,Neuroticism
+RandomForest,no,Non-imaging,22,low vs high,validation,0.775921658986175,Neuroticism
+RandomForest,no,Non-imaging,22,low vs high,generalization,0.7706265271482663,Neuroticism
+RandomForest,no,Non-imaging,23,low vs high,validation,0.8113722587211992,Neuroticism
+RandomForest,no,Non-imaging,23,low vs high,generalization,0.776895529069442,Neuroticism
+RandomForest,no,Non-imaging,24,low vs high,validation,0.8173076923076923,Neuroticism
+RandomForest,no,Non-imaging,24,low vs high,generalization,0.7768848040587171,Neuroticism
+RandomForest,no,Non-imaging,25,low vs high,validation,0.7020757020757019,Neuroticism
+RandomForest,no,Non-imaging,25,low vs high,generalization,0.7648187006882659,Neuroticism
+RandomForest,no,Non-imaging,26,low vs high,validation,0.7455848358760981,Neuroticism
+RandomForest,no,Non-imaging,26,low vs high,generalization,0.7744688788167049,Neuroticism
+RandomForest,no,Non-imaging,27,low vs high,validation,0.7690385861016008,Neuroticism
+RandomForest,no,Non-imaging,27,low vs high,generalization,0.7667585287150505,Neuroticism
+RandomForest,no,Non-imaging,28,low vs high,validation,0.7120665742024965,Neuroticism
+RandomForest,no,Non-imaging,28,low vs high,generalization,0.7706223304049392,Neuroticism
+RandomForest,no,Non-imaging,29,low vs high,validation,0.7357731100212824,Neuroticism
+RandomForest,no,Non-imaging,29,low vs high,generalization,0.770621864100125,Neuroticism
+RandomForest,no,Non-imaging,30,low vs high,validation,0.7797900993777283,Neuroticism
+RandomForest,no,Non-imaging,30,low vs high,generalization,0.7619178184395575,Neuroticism
+RandomForest,no,Non-imaging,31,low vs high,validation,0.7739853255317173,Neuroticism
+RandomForest,no,Non-imaging,31,low vs high,generalization,0.7715815194076064,Neuroticism
+RandomForest,no,Non-imaging,32,low vs high,validation,0.8170370370370371,Neuroticism
+RandomForest,no,Non-imaging,32,low vs high,generalization,0.7711030906683082,Neuroticism
+RandomForest,no,Non-imaging,33,low vs high,validation,0.7542592592592593,Neuroticism
+RandomForest,no,Non-imaging,33,low vs high,generalization,0.7759274802753064,Neuroticism
+RandomForest,no,Non-imaging,34,low vs high,validation,0.7333333333333333,Neuroticism
+RandomForest,no,Non-imaging,34,low vs high,generalization,0.7710844384757428,Neuroticism
+RandomForest,no,Non-imaging,35,low vs high,validation,0.7844062153163152,Neuroticism
+RandomForest,no,Non-imaging,35,low vs high,generalization,0.7681970790666443,Neuroticism
+RandomForest,no,Non-imaging,36,low vs high,validation,0.7884615384615384,Neuroticism
+RandomForest,no,Non-imaging,36,low vs high,generalization,0.766749668923582,Neuroticism
+RandomForest,no,Non-imaging,37,low vs high,validation,0.8025046382189238,Neuroticism
+RandomForest,no,Non-imaging,37,low vs high,generalization,0.7691669930800366,Neuroticism
+RandomForest,no,Non-imaging,38,low vs high,validation,0.7496994914470644,Neuroticism
+RandomForest,no,Non-imaging,38,low vs high,generalization,0.7643454013019231,Neuroticism
+RandomForest,no,Non-imaging,39,low vs high,validation,0.7357836338418863,Neuroticism
+RandomForest,no,Non-imaging,39,low vs high,generalization,0.7691711898233637,Neuroticism
+RandomForest,no,Non-imaging,40,low vs high,validation,0.7629776996391228,Neuroticism
+RandomForest,no,Non-imaging,40,low vs high,generalization,0.7710965624009103,Neuroticism
+RandomForest,no,Non-imaging,41,low vs high,validation,0.7891538101916784,Neuroticism
+RandomForest,no,Non-imaging,41,low vs high,generalization,0.7730363904276948,Neuroticism
+RandomForest,no,Non-imaging,42,low vs high,validation,0.7789395762006107,Neuroticism
+RandomForest,no,Non-imaging,42,low vs high,generalization,0.7667557308861656,Neuroticism
+RandomForest,no,Non-imaging,43,low vs high,validation,0.74047354790973,Neuroticism
+RandomForest,no,Non-imaging,43,low vs high,generalization,0.7696444892097065,Neuroticism
+RandomForest,no,Non-imaging,44,low vs high,validation,0.778648749533408,Neuroticism
+RandomForest,no,Non-imaging,44,low vs high,generalization,0.7715768563594649,Neuroticism
+RandomForest,no,Non-imaging,45,low vs high,validation,0.7821015304217992,Neuroticism
+RandomForest,no,Non-imaging,45,low vs high,generalization,0.7802739074478204,Neuroticism
+RandomForest,no,Non-imaging,46,low vs high,validation,0.7929582677893957,Neuroticism
+RandomForest,no,Non-imaging,46,low vs high,generalization,0.7720683416335591,Neuroticism
+RandomForest,no,Non-imaging,47,low vs high,validation,0.7989921612541994,Neuroticism
+RandomForest,no,Non-imaging,47,low vs high,generalization,0.776891332326115,Neuroticism
+RandomForest,no,Non-imaging,48,low vs high,validation,0.7738788719371243,Neuroticism
+RandomForest,no,Non-imaging,48,low vs high,generalization,0.7657848842631452,Neuroticism
+RandomForest,no,Non-imaging,49,low vs high,validation,0.7894492430574905,Neuroticism
+RandomForest,no,Non-imaging,49,low vs high,generalization,0.7648242963460355,Neuroticism
+RandomForest,no,Non-imaging,50,low vs high,validation,0.7738788719371243,Neuroticism
+RandomForest,no,Non-imaging,50,low vs high,generalization,0.7701289799115885,Neuroticism
+RandomForest,no,Non-imaging,51,low vs high,validation,0.7945269016697588,Neuroticism
+RandomForest,no,Non-imaging,51,low vs high,generalization,0.7677153861936471,Neuroticism
+RandomForest,no,Non-imaging,52,low vs high,validation,0.8052444942142591,Neuroticism
+RandomForest,no,Non-imaging,52,low vs high,generalization,0.7691679256896649,Neuroticism
+RandomForest,no,Non-imaging,53,low vs high,validation,0.7616191904047976,Neuroticism
+RandomForest,no,Non-imaging,53,low vs high,generalization,0.7720622796709753,Neuroticism
+RandomForest,no,Non-imaging,54,low vs high,validation,0.7898248540450377,Neuroticism
+RandomForest,no,Non-imaging,54,low vs high,generalization,0.7662703075746554,Neuroticism
+RandomForest,no,Non-imaging,55,low vs high,validation,0.8040496710221481,Neuroticism
+RandomForest,no,Non-imaging,55,low vs high,generalization,0.7715782552739074,Neuroticism
+RandomForest,no,Non-imaging,56,low vs high,validation,0.7672222222222222,Neuroticism
+RandomForest,no,Non-imaging,56,low vs high,generalization,0.7701261820827039,Neuroticism
+RandomForest,no,Non-imaging,57,low vs high,validation,0.7839675195921064,Neuroticism
+RandomForest,no,Non-imaging,57,low vs high,generalization,0.7672406878928617,Neuroticism
+RandomForest,no,Non-imaging,58,low vs high,validation,0.7730247779336138,Neuroticism
+RandomForest,no,Non-imaging,58,low vs high,generalization,0.7735082908995952,Neuroticism
+RandomForest,no,Non-imaging,59,low vs high,validation,0.75,Neuroticism
+RandomForest,no,Non-imaging,59,low vs high,generalization,0.7734975658888703,Neuroticism
+RandomForest,no,Non-imaging,60,low vs high,validation,0.8028201571890892,Neuroticism
+RandomForest,no,Non-imaging,60,low vs high,generalization,0.7653041239997762,Neuroticism
+RandomForest,no,Non-imaging,61,low vs high,validation,0.8043154761904759,Neuroticism
+RandomForest,no,Non-imaging,61,low vs high,generalization,0.7710974950105385,Neuroticism
+RandomForest,no,Non-imaging,62,low vs high,validation,0.7797619047619048,Neuroticism
+RandomForest,no,Non-imaging,62,low vs high,generalization,0.7648256952604778,Neuroticism
+RandomForest,no,Non-imaging,63,low vs high,validation,0.7980724677972384,Neuroticism
+RandomForest,no,Non-imaging,63,low vs high,generalization,0.7710951634864678,Neuroticism
+RandomForest,no,Non-imaging,64,low vs high,validation,0.78125,Neuroticism
+RandomForest,no,Non-imaging,64,low vs high,generalization,0.7749570999571,Neuroticism
+RandomForest,no,Non-imaging,65,low vs high,validation,0.7767857142857143,Neuroticism
+RandomForest,no,Non-imaging,65,low vs high,generalization,0.7643370078152688,Neuroticism
+RandomForest,no,Non-imaging,66,low vs high,validation,0.7740384615384615,Neuroticism
+RandomForest,no,Non-imaging,66,low vs high,generalization,0.771583850931677,Neuroticism
+RandomForest,no,Non-imaging,67,low vs high,validation,0.7490740740740741,Neuroticism
+RandomForest,no,Non-imaging,67,low vs high,generalization,0.7701313114356593,Neuroticism
+RandomForest,no,Non-imaging,68,low vs high,validation,0.7811138912056343,Neuroticism
+RandomForest,no,Non-imaging,68,low vs high,generalization,0.7672313617965791,Neuroticism
+RandomForest,no,Non-imaging,69,low vs high,validation,0.7649763165227084,Neuroticism
+RandomForest,no,Non-imaging,69,low vs high,generalization,0.7696575457445023,Neuroticism
+RandomForest,no,Non-imaging,70,low vs high,validation,0.7984639585453873,Neuroticism
+RandomForest,no,Non-imaging,70,low vs high,generalization,0.7749654934437543,Neuroticism
+RandomForest,no,Non-imaging,71,low vs high,validation,0.7402992052360916,Neuroticism
+RandomForest,no,Non-imaging,71,low vs high,generalization,0.7715805867979781,Neuroticism
+RandomForest,no,Non-imaging,72,low vs high,validation,0.802827380952381,Neuroticism
+RandomForest,no,Non-imaging,72,low vs high,generalization,0.7720636785854178,Neuroticism
+RandomForest,no,Non-imaging,73,low vs high,validation,0.8058441558441558,Neuroticism
+RandomForest,no,Non-imaging,73,low vs high,generalization,0.7662647119168858,Neuroticism
+RandomForest,no,Non-imaging,74,low vs high,validation,0.8105394651614695,Neuroticism
+RandomForest,no,Non-imaging,74,low vs high,generalization,0.7778491224143397,Neuroticism
+RandomForest,no,Non-imaging,75,low vs high,validation,0.7743411927877947,Neuroticism
+RandomForest,no,Non-imaging,75,low vs high,generalization,0.7730182045399437,Neuroticism
+RandomForest,no,Non-imaging,76,low vs high,validation,0.7467844915332654,Neuroticism
+RandomForest,no,Non-imaging,76,low vs high,generalization,0.7667478037043255,Neuroticism
+RandomForest,no,Non-imaging,77,low vs high,validation,0.7836800739713361,Neuroticism
+RandomForest,no,Non-imaging,77,low vs high,generalization,0.7720632122806036,Neuroticism
+RandomForest,no,Non-imaging,78,low vs high,validation,0.7133580705009276,Neuroticism
+RandomForest,no,Non-imaging,78,low vs high,generalization,0.7638525171133866,Neuroticism
+RandomForest,no,Non-imaging,79,low vs high,validation,0.7889967637540454,Neuroticism
+RandomForest,no,Non-imaging,79,low vs high,generalization,0.7759204857030945,Neuroticism
+RandomForest,no,Non-imaging,80,low vs high,validation,0.7684601113172541,Neuroticism
+RandomForest,no,Non-imaging,80,low vs high,generalization,0.7691637289463377,Neuroticism
+RandomForest,no,Non-imaging,81,low vs high,validation,0.7877777777777778,Neuroticism
+RandomForest,no,Non-imaging,81,low vs high,generalization,0.7657881483968441,Neuroticism
+RandomForest,no,Non-imaging,82,low vs high,validation,0.777037037037037,Neuroticism
+RandomForest,no,Non-imaging,82,low vs high,generalization,0.7710970287057243,Neuroticism
+RandomForest,no,Non-imaging,83,low vs high,validation,0.7259615384615385,Neuroticism
+RandomForest,no,Non-imaging,83,low vs high,generalization,0.7764143025012591,Neuroticism
+RandomForest,no,Non-imaging,84,low vs high,validation,0.8023126219002509,Neuroticism
+RandomForest,no,Non-imaging,84,low vs high,generalization,0.766760393934307,Neuroticism
+RandomForest,no,Non-imaging,85,low vs high,validation,0.7638104931988526,Neuroticism
+RandomForest,no,Non-imaging,85,low vs high,generalization,0.7730321936843675,Neuroticism
+RandomForest,no,Non-imaging,86,low vs high,validation,0.8126159554730983,Neuroticism
+RandomForest,no,Non-imaging,86,low vs high,generalization,0.7653003935612631,Neuroticism
+RandomForest,no,Non-imaging,87,low vs high,validation,0.7686202686202687,Neuroticism
+RandomForest,no,Non-imaging,87,low vs high,generalization,0.769649618562662,Neuroticism
+RandomForest,no,Non-imaging,88,low vs high,validation,0.8061441658184509,Neuroticism
+RandomForest,no,Non-imaging,88,low vs high,generalization,0.7662703075746554,Neuroticism
+RandomForest,no,Non-imaging,89,low vs high,validation,0.8125231224565298,Neuroticism
+RandomForest,no,Non-imaging,89,low vs high,generalization,0.7706144032230988,Neuroticism
+RandomForest,no,Non-imaging,90,low vs high,validation,0.7787332408691632,Neuroticism
+RandomForest,no,Non-imaging,90,low vs high,generalization,0.7706130043086565,Neuroticism
+RandomForest,no,Non-imaging,91,low vs high,validation,0.7760633861551293,Neuroticism
+RandomForest,no,Non-imaging,91,low vs high,generalization,0.7749547684330294,Neuroticism
+RandomForest,no,Non-imaging,92,low vs high,validation,0.7888118354137772,Neuroticism
+RandomForest,no,Non-imaging,92,low vs high,generalization,0.7730191371495719,Neuroticism
+RandomForest,no,Non-imaging,93,low vs high,validation,0.7981871994080652,Neuroticism
+RandomForest,no,Non-imaging,93,low vs high,generalization,0.7696477533434055,Neuroticism
+RandomForest,no,Non-imaging,94,low vs high,validation,0.75,Neuroticism
+RandomForest,no,Non-imaging,94,low vs high,generalization,0.7667543319717233,Neuroticism
+RandomForest,no,Non-imaging,95,low vs high,validation,0.7875544435177463,Neuroticism
+RandomForest,no,Non-imaging,95,low vs high,generalization,0.7720580829276481,Neuroticism
+RandomForest,no,Non-imaging,96,low vs high,validation,0.7921845574387948,Neuroticism
+RandomForest,no,Non-imaging,96,low vs high,generalization,0.7739834555051947,Neuroticism
+RandomForest,no,Non-imaging,97,low vs high,validation,0.7836538461538459,Neuroticism
+RandomForest,no,Non-imaging,97,low vs high,generalization,0.7778598474250648,Neuroticism
+RandomForest,no,Non-imaging,98,low vs high,validation,0.7566964285714286,Neuroticism
+RandomForest,no,Non-imaging,98,low vs high,generalization,0.7706195325760543,Neuroticism
+RandomForest,no,Non-imaging,99,low vs high,validation,0.7548237476808906,Neuroticism
+RandomForest,no,Non-imaging,99,low vs high,generalization,0.7691655941655943,Neuroticism
+RandomForest,no,Non-imaging,0,low vs high,validation,0.9254342431761788,Age
+RandomForest,no,Non-imaging,0,low vs high,generalization,0.922881727036248,Age
+RandomForest,no,Non-imaging,1,low vs high,validation,0.9447963238946846,Age
+RandomForest,no,Non-imaging,1,low vs high,generalization,0.9243566532899352,Age
+RandomForest,no,Non-imaging,2,low vs high,validation,0.9115930999492644,Age
+RandomForest,no,Non-imaging,2,low vs high,generalization,0.9236197348182812,Age
+RandomForest,no,Non-imaging,3,low vs high,validation,0.9288682170542636,Age
+RandomForest,no,Non-imaging,3,low vs high,generalization,0.9236202794734708,Age
+RandomForest,no,Non-imaging,4,low vs high,validation,0.9212549603174603,Age
+RandomForest,no,Non-imaging,4,low vs high,generalization,0.9236208241286604,Age
+RandomForest,no,Non-imaging,5,low vs high,validation,0.9177372962607864,Age
+RandomForest,no,Non-imaging,5,low vs high,generalization,0.92546393729058,Age
+RandomForest,no,Non-imaging,6,low vs high,validation,0.9097312728852478,Age
+RandomForest,no,Non-imaging,6,low vs high,generalization,0.9232471906685316,Age
+RandomForest,no,Non-imaging,7,low vs high,validation,0.93796992481203,Age
+RandomForest,no,Non-imaging,7,low vs high,generalization,0.9191884201949432,Age
+RandomForest,no,Non-imaging,8,low vs high,validation,0.9327347293854472,Age
+RandomForest,no,Non-imaging,8,low vs high,generalization,0.9232444673925831,Age
+RandomForest,no,Non-imaging,9,low vs high,validation,0.9201458752515088,Age
+RandomForest,no,Non-imaging,9,low vs high,generalization,0.9243571979451248,Age
+RandomForest,no,Non-imaging,10,low vs high,validation,0.9223258706467664,Age
+RandomForest,no,Non-imaging,10,low vs high,generalization,0.9206644357590096,Age
+RandomForest,no,Non-imaging,11,low vs high,validation,0.9133858267716536,Age
+RandomForest,no,Non-imaging,11,low vs high,generalization,0.922140995978266,Age
+RandomForest,no,Non-imaging,12,low vs high,validation,0.940944881889764,Age
+RandomForest,no,Non-imaging,12,low vs high,generalization,0.9217722644148442,Age
+RandomForest,no,Non-imaging,13,low vs high,validation,0.94003753518924,Age
+RandomForest,no,Non-imaging,13,low vs high,generalization,0.9206677036901478,Age
+RandomForest,no,Non-imaging,14,low vs high,validation,0.9333767765158568,Age
+RandomForest,no,Non-imaging,14,low vs high,generalization,0.9239890110368928,Age
+RandomForest,no,Non-imaging,15,low vs high,validation,0.9315592903828198,Age
+RandomForest,no,Non-imaging,15,low vs high,generalization,0.922874646518782,Age
+RandomForest,no,Non-imaging,16,low vs high,validation,0.9227611940298508,Age
+RandomForest,no,Non-imaging,16,low vs high,generalization,0.9228844503121963,Age
+RandomForest,no,Non-imaging,17,low vs high,validation,0.9212403100775194,Age
+RandomForest,no,Non-imaging,17,low vs high,generalization,0.9239857431057544,Age
+RandomForest,no,Non-imaging,18,low vs high,validation,0.9410103643021164,Age
+RandomForest,no,Non-imaging,18,low vs high,generalization,0.9236181008527122,Age
+RandomForest,no,Non-imaging,19,low vs high,validation,0.9343905472636816,Age
+RandomForest,no,Non-imaging,19,low vs high,generalization,0.9217755323459824,Age
+RandomForest,no,Non-imaging,20,low vs high,validation,0.9333457341269842,Age
+RandomForest,no,Non-imaging,20,low vs high,generalization,0.9247248401981674,Age
+RandomForest,no,Non-imaging,21,low vs high,validation,0.9264967021816336,Age
+RandomForest,no,Non-imaging,21,low vs high,generalization,0.9262035790381826,Age
+RandomForest,no,Non-imaging,22,low vs high,validation,0.9333126550868488,Age
+RandomForest,no,Non-imaging,22,low vs high,generalization,0.9199209814250796,Age
+RandomForest,no,Non-imaging,23,low vs high,validation,0.9159330985915493,Age
+RandomForest,no,Non-imaging,23,low vs high,generalization,0.9221437192542143,Age
+RandomForest,no,Non-imaging,24,low vs high,validation,0.913151364764268,Age
+RandomForest,no,Non-imaging,24,low vs high,generalization,0.9258310348884328,Age
+RandomForest,no,Non-imaging,25,low vs high,validation,0.9214232303090728,Age
+RandomForest,no,Non-imaging,25,low vs high,generalization,0.924727563474116,Age
+RandomForest,no,Non-imaging,26,low vs high,validation,0.9525434243176178,Age
+RandomForest,no,Non-imaging,26,low vs high,generalization,0.9254612140146316,Age
+RandomForest,no,Non-imaging,27,low vs high,validation,0.8974088112844094,Age
+RandomForest,no,Non-imaging,27,low vs high,generalization,0.9243533853587972,Age
+RandomForest,no,Non-imaging,28,low vs high,validation,0.915547263681592,Age
+RandomForest,no,Non-imaging,28,low vs high,generalization,0.9217700857940856,Age
+RandomForest,no,Non-imaging,29,low vs high,validation,0.9076634344698156,Age
+RandomForest,no,Non-imaging,29,low vs high,generalization,0.9228790037602994,Age
+RandomForest,no,Non-imaging,30,low vs high,validation,0.9609452736318408,Age
+RandomForest,no,Non-imaging,30,low vs high,generalization,0.9262024897278032,Age
+RandomForest,no,Non-imaging,31,low vs high,validation,0.9498599439775912,Age
+RandomForest,no,Non-imaging,31,low vs high,generalization,0.9203000614371052,Age
+RandomForest,no,Non-imaging,32,low vs high,validation,0.9299588737741222,Age
+RandomForest,no,Non-imaging,32,low vs high,generalization,0.9239851984505649,Age
+RandomForest,no,Non-imaging,33,low vs high,validation,0.9288152423508969,Age
+RandomForest,no,Non-imaging,33,low vs high,generalization,0.9247237508877879,Age
+RandomForest,no,Non-imaging,34,low vs high,validation,0.9232640838480254,Age
+RandomForest,no,Non-imaging,34,low vs high,generalization,0.9243577426003146,Age
+RandomForest,no,Non-imaging,35,low vs high,validation,0.9013643410852712,Age
+RandomForest,no,Non-imaging,35,low vs high,generalization,0.9184482337921508,Age
+RandomForest,no,Non-imaging,36,low vs high,validation,0.9247502017004902,Age
+RandomForest,no,Non-imaging,36,low vs high,generalization,0.9214024435410432,Age
+RandomForest,no,Non-imaging,37,low vs high,validation,0.9344871794871794,Age
+RandomForest,no,Non-imaging,37,low vs high,generalization,0.9254661159113388,Age
+RandomForest,no,Non-imaging,38,low vs high,validation,0.9056732740943266,Age
+RandomForest,no,Non-imaging,38,low vs high,generalization,0.9236164668871432,Age
+RandomForest,no,Non-imaging,39,low vs high,validation,0.8748113682092555,Age
+RandomForest,no,Non-imaging,39,low vs high,generalization,0.9228773697947305,Age
+RandomForest,no,Non-imaging,40,low vs high,validation,0.9054439484126984,Age
+RandomForest,no,Non-imaging,40,low vs high,generalization,0.92324991394448,Age
+RandomForest,no,Non-imaging,41,low vs high,validation,0.9131162790697674,Age
+RandomForest,no,Non-imaging,41,low vs high,generalization,0.9221404513230764,Age
+RandomForest,no,Non-imaging,42,low vs high,validation,0.9129969129969129,Age
+RandomForest,no,Non-imaging,42,low vs high,generalization,0.9236170115423328,Age
+RandomForest,no,Non-imaging,43,low vs high,validation,0.9254342431761788,Age
+RandomForest,no,Non-imaging,43,low vs high,generalization,0.9210348012880004,Age
+RandomForest,no,Non-imaging,44,low vs high,validation,0.8946212263854892,Age
+RandomForest,no,Non-imaging,44,low vs high,generalization,0.9261959538655268,Age
+RandomForest,no,Non-imaging,45,low vs high,validation,0.9451162790697674,Age
+RandomForest,no,Non-imaging,45,low vs high,generalization,0.9228811823810582,Age
+RandomForest,no,Non-imaging,46,low vs high,validation,0.9173648606715076,Age
+RandomForest,no,Non-imaging,46,low vs high,generalization,0.9232455567029624,Age
+RandomForest,no,Non-imaging,47,low vs high,validation,0.9292534722222222,Age
+RandomForest,no,Non-imaging,47,low vs high,generalization,0.9221415406334558,Age
+RandomForest,no,Non-imaging,48,low vs high,validation,0.9290942928039702,Age
+RandomForest,no,Non-imaging,48,low vs high,generalization,0.9254601247042524,Age
+RandomForest,no,Non-imaging,49,low vs high,validation,0.9044740777667,Age
+RandomForest,no,Non-imaging,49,low vs high,generalization,0.9210353459431904,Age
+RandomForest,no,Non-imaging,50,low vs high,validation,0.8780381944444444,Age
+RandomForest,no,Non-imaging,50,low vs high,generalization,0.9173382265155576,Age
+RandomForest,no,Non-imaging,51,low vs high,validation,0.940944881889764,Age
+RandomForest,no,Non-imaging,51,low vs high,generalization,0.9243561086347454,Age
+RandomForest,no,Non-imaging,52,low vs high,validation,0.9293369890329012,Age
+RandomForest,no,Non-imaging,52,low vs high,generalization,0.9232493692892904,Age
+RandomForest,no,Non-imaging,53,low vs high,validation,0.9488921988456526,Age
+RandomForest,no,Non-imaging,53,low vs high,generalization,0.9258326688540021,Age
+RandomForest,no,Non-imaging,54,low vs high,validation,0.9184428012179208,Age
+RandomForest,no,Non-imaging,54,low vs high,generalization,0.9217711751044648,Age
+RandomForest,no,Non-imaging,55,low vs high,validation,0.9252159323929658,Age
+RandomForest,no,Non-imaging,55,low vs high,generalization,0.9184493231025302,Age
+RandomForest,no,Non-imaging,56,low vs high,validation,0.9331265508684864,Age
+RandomForest,no,Non-imaging,56,low vs high,generalization,0.923983564484996,Age
+RandomForest,no,Non-imaging,57,low vs high,validation,0.8944635595871129,Age
+RandomForest,no,Non-imaging,57,low vs high,generalization,0.9199242493562176,Age
+RandomForest,no,Non-imaging,58,low vs high,validation,0.8823713143428287,Age
+RandomForest,no,Non-imaging,58,low vs high,generalization,0.9206649804141994,Age
+RandomForest,no,Non-imaging,59,low vs high,validation,0.9289179104477612,Age
+RandomForest,no,Non-imaging,59,low vs high,generalization,0.9191873308845636,Age
+RandomForest,no,Non-imaging,60,low vs high,validation,0.9164179104477612,Age
+RandomForest,no,Non-imaging,60,low vs high,generalization,0.9232493692892904,Age
+RandomForest,no,Non-imaging,61,low vs high,validation,0.9328117237953304,Age
+RandomForest,no,Non-imaging,61,low vs high,generalization,0.9217722644148442,Age
+RandomForest,no,Non-imaging,62,low vs high,validation,0.943483709273183,Age
+RandomForest,no,Non-imaging,62,low vs high,generalization,0.9265717659464144,Age
+RandomForest,no,Non-imaging,63,low vs high,validation,0.9409991921953644,Age
+RandomForest,no,Non-imaging,63,low vs high,generalization,0.924351751393228,Age
+RandomForest,no,Non-imaging,64,low vs high,validation,0.8959649671567094,Age
+RandomForest,no,Non-imaging,64,low vs high,generalization,0.9239873770713236,Age
+RandomForest,no,Non-imaging,65,low vs high,validation,0.93434469815452,Age
+RandomForest,no,Non-imaging,65,low vs high,generalization,0.9188251351834179,Age
+RandomForest,no,Non-imaging,66,low vs high,validation,0.8891473843058351,Age
+RandomForest,no,Non-imaging,66,low vs high,generalization,0.9221399066678868,Age
+RandomForest,no,Non-imaging,67,low vs high,validation,0.9204714640198512,Age
+RandomForest,no,Non-imaging,67,low vs high,generalization,0.9202924362644498,Age
+RandomForest,no,Non-imaging,68,low vs high,validation,0.9300125313283208,Age
+RandomForest,no,Non-imaging,68,low vs high,generalization,0.9239857431057544,Age
+RandomForest,no,Non-imaging,69,low vs high,validation,0.9288515406162464,Age
+RandomForest,no,Non-imaging,69,low vs high,generalization,0.9225086382313086,Age
+RandomForest,no,Non-imaging,70,low vs high,validation,0.9192027162977868,Age
+RandomForest,no,Non-imaging,70,low vs high,generalization,0.9250892145200716,Age
+RandomForest,no,Non-imaging,71,low vs high,validation,0.900795376871932,Age
+RandomForest,no,Non-imaging,71,low vs high,generalization,0.9258294009228638,Age
+RandomForest,no,Non-imaging,72,low vs high,validation,0.9461562402738874,Age
+RandomForest,no,Non-imaging,72,low vs high,generalization,0.9221388173575072,Age
+RandomForest,no,Non-imaging,73,low vs high,validation,0.9369419642857144,Age
+RandomForest,no,Non-imaging,73,low vs high,generalization,0.921774443035603,Age
+RandomForest,no,Non-imaging,74,low vs high,validation,0.9166247484909456,Age
+RandomForest,no,Non-imaging,74,low vs high,generalization,0.9276757820159214,Age
+RandomForest,no,Non-imaging,75,low vs high,validation,0.914004914004914,Age
+RandomForest,no,Non-imaging,75,low vs high,generalization,0.9206698823109066,Age
+RandomForest,no,Non-imaging,76,low vs high,validation,0.9126304023845008,Age
+RandomForest,no,Non-imaging,76,low vs high,generalization,0.9254606693594418,Age
+RandomForest,no,Non-imaging,77,low vs high,validation,0.9192948717948718,Age
+RandomForest,no,Non-imaging,77,low vs high,generalization,0.9221469871853528,Age
+RandomForest,no,Non-imaging,78,low vs high,validation,0.919457128361238,Age
+RandomForest,no,Non-imaging,78,low vs high,generalization,0.9188207779419004,Age
+RandomForest,no,Non-imaging,79,low vs high,validation,0.9044265593561368,Age
+RandomForest,no,Non-imaging,79,low vs high,generalization,0.9258315795436224,Age
+RandomForest,no,Non-imaging,80,low vs high,validation,0.9383723828514456,Age
+RandomForest,no,Non-imaging,80,low vs high,generalization,0.9258321241988122,Age
+RandomForest,no,Non-imaging,81,low vs high,validation,0.940958605664488,Age
+RandomForest,no,Non-imaging,81,low vs high,generalization,0.9210342566328108,Age
+RandomForest,no,Non-imaging,82,low vs high,validation,0.9000631313131313,Age
+RandomForest,no,Non-imaging,82,low vs high,generalization,0.9262003111070444,Age
+RandomForest,no,Non-imaging,83,low vs high,validation,0.9130515732638242,Age
+RandomForest,no,Non-imaging,83,low vs high,generalization,0.9236142882663844,Age
+RandomForest,no,Non-imaging,84,low vs high,validation,0.9256605184446658,Age
+RandomForest,no,Non-imaging,84,low vs high,generalization,0.9239851984505649,Age
+RandomForest,no,Non-imaging,85,low vs high,validation,0.9454172876304024,Age
+RandomForest,no,Non-imaging,85,low vs high,generalization,0.9184493231025302,Age
+RandomForest,no,Non-imaging,86,low vs high,validation,0.9424151132868891,Age
+RandomForest,no,Non-imaging,86,low vs high,generalization,0.9258304902332432,Age
+RandomForest,no,Non-imaging,87,low vs high,validation,0.9328432905849232,Age
+RandomForest,no,Non-imaging,87,low vs high,generalization,0.9228768251395406,Age
+RandomForest,no,Non-imaging,88,low vs high,validation,0.9192027162977866,Age
+RandomForest,no,Non-imaging,88,low vs high,generalization,0.9258321241988122,Age
+RandomForest,no,Non-imaging,89,low vs high,validation,0.9453236517097996,Age
+RandomForest,no,Non-imaging,89,low vs high,generalization,0.925095750382348,Age
+RandomForest,no,Non-imaging,90,low vs high,validation,0.9333126550868488,Age
+RandomForest,no,Non-imaging,90,low vs high,generalization,0.9206682483453376,Age
+RandomForest,no,Non-imaging,91,low vs high,validation,0.8923230309072782,Age
+RandomForest,no,Non-imaging,91,low vs high,generalization,0.9191835182982356,Age
+RandomForest,no,Non-imaging,92,low vs high,validation,0.9574018877297568,Age
+RandomForest,no,Non-imaging,92,low vs high,generalization,0.9195593303791236,Age
+RandomForest,no,Non-imaging,93,low vs high,validation,0.9327347293854472,Age
+RandomForest,no,Non-imaging,93,low vs high,generalization,0.9243577426003146,Age
+RandomForest,no,Non-imaging,94,low vs high,validation,0.9383723828514456,Age
+RandomForest,no,Non-imaging,94,low vs high,generalization,0.9228773697947305,Age
+RandomForest,no,Non-imaging,95,low vs high,validation,0.9220321931589536,Age
+RandomForest,no,Non-imaging,95,low vs high,generalization,0.9254601247042524,Age
+RandomForest,no,Non-imaging,96,low vs high,validation,0.9050546448087432,Age
+RandomForest,no,Non-imaging,96,low vs high,generalization,0.919186786229374,Age
+RandomForest,no,Non-imaging,97,low vs high,validation,0.924998448457767,Age
+RandomForest,no,Non-imaging,97,low vs high,generalization,0.9243561086347454,Age
+RandomForest,no,Non-imaging,98,low vs high,validation,0.9451314236003232,Age
+RandomForest,no,Non-imaging,98,low vs high,generalization,0.9221399066678868,Age
+RandomForest,no,Non-imaging,99,low vs high,validation,0.917183622828784,Age
+RandomForest,no,Non-imaging,99,low vs high,generalization,0.9210298993912934,Age
+RandomForest,no,Non-imaging,0,low vs high,validation,0.6986315789473684,Fluid intelligence
+RandomForest,no,Non-imaging,0,low vs high,generalization,0.7382585736486299,Fluid intelligence
+RandomForest,no,Non-imaging,1,low vs high,validation,0.6732732732732732,Fluid intelligence
+RandomForest,no,Non-imaging,1,low vs high,generalization,0.7505049654940246,Fluid intelligence
+RandomForest,no,Non-imaging,2,low vs high,validation,0.7311436769829883,Fluid intelligence
+RandomForest,no,Non-imaging,2,low vs high,generalization,0.7208010553387378,Fluid intelligence
+RandomForest,no,Non-imaging,3,low vs high,validation,0.7197030497592295,Fluid intelligence
+RandomForest,no,Non-imaging,3,low vs high,generalization,0.7296536093289439,Fluid intelligence
+RandomForest,no,Non-imaging,4,low vs high,validation,0.6709744503862151,Fluid intelligence
+RandomForest,no,Non-imaging,4,low vs high,generalization,0.7308915576815429,Fluid intelligence
+RandomForest,no,Non-imaging,5,low vs high,validation,0.6959579948484248,Fluid intelligence
+RandomForest,no,Non-imaging,5,low vs high,generalization,0.7291985532151427,Fluid intelligence
+RandomForest,no,Non-imaging,6,low vs high,validation,0.7477106227106227,Fluid intelligence
+RandomForest,no,Non-imaging,6,low vs high,generalization,0.7407462137374101,Fluid intelligence
+RandomForest,no,Non-imaging,7,low vs high,validation,0.6599916995227224,Fluid intelligence
+RandomForest,no,Non-imaging,7,low vs high,generalization,0.7402471199351766,Fluid intelligence
+RandomForest,no,Non-imaging,8,low vs high,validation,0.6895367903258866,Fluid intelligence
+RandomForest,no,Non-imaging,8,low vs high,generalization,0.7322371537169766,Fluid intelligence
+RandomForest,no,Non-imaging,9,low vs high,validation,0.6228701825557809,Fluid intelligence
+RandomForest,no,Non-imaging,9,low vs high,generalization,0.7289069258561905,Fluid intelligence
+RandomForest,no,Non-imaging,10,low vs high,validation,0.7231252493019545,Fluid intelligence
+RandomForest,no,Non-imaging,10,low vs high,generalization,0.7380550216665428,Fluid intelligence
+RandomForest,no,Non-imaging,11,low vs high,validation,0.7322003218020918,Fluid intelligence
+RandomForest,no,Non-imaging,11,low vs high,generalization,0.7245305582413109,Fluid intelligence
+RandomForest,no,Non-imaging,12,low vs high,validation,0.7862895207794791,Fluid intelligence
+RandomForest,no,Non-imaging,12,low vs high,generalization,0.7332832934710702,Fluid intelligence
+RandomForest,no,Non-imaging,13,low vs high,validation,0.6864969288686349,Fluid intelligence
+RandomForest,no,Non-imaging,13,low vs high,generalization,0.7477736501959187,Fluid intelligence
+RandomForest,no,Non-imaging,14,low vs high,validation,0.6980088495575221,Fluid intelligence
+RandomForest,no,Non-imaging,14,low vs high,generalization,0.7260395830315937,Fluid intelligence
+RandomForest,no,Non-imaging,15,low vs high,validation,0.7425619834710744,Fluid intelligence
+RandomForest,no,Non-imaging,15,low vs high,generalization,0.7351279833087374,Fluid intelligence
+RandomForest,no,Non-imaging,16,low vs high,validation,0.7407920792079209,Fluid intelligence
+RandomForest,no,Non-imaging,16,low vs high,generalization,0.7430782539937291,Fluid intelligence
+RandomForest,no,Non-imaging,17,low vs high,validation,0.6872309899569584,Fluid intelligence
+RandomForest,no,Non-imaging,17,low vs high,generalization,0.7370127963736431,Fluid intelligence
+RandomForest,no,Non-imaging,18,low vs high,validation,0.7030813721579577,Fluid intelligence
+RandomForest,no,Non-imaging,18,low vs high,generalization,0.7324886578486904,Fluid intelligence
+RandomForest,no,Non-imaging,19,low vs high,validation,0.6789620202823623,Fluid intelligence
+RandomForest,no,Non-imaging,19,low vs high,generalization,0.7227338205532701,Fluid intelligence
+RandomForest,no,Non-imaging,20,low vs high,validation,0.7922640382317802,Fluid intelligence
+RandomForest,no,Non-imaging,20,low vs high,generalization,0.7339262437221828,Fluid intelligence
+RandomForest,no,Non-imaging,21,low vs high,validation,0.7336663336663336,Fluid intelligence
+RandomForest,no,Non-imaging,21,low vs high,generalization,0.7428061989407468,Fluid intelligence
+RandomForest,no,Non-imaging,22,low vs high,validation,0.760960960960961,Fluid intelligence
+RandomForest,no,Non-imaging,22,low vs high,generalization,0.7439247562269291,Fluid intelligence
+RandomForest,no,Non-imaging,23,low vs high,validation,0.7614994026284349,Fluid intelligence
+RandomForest,no,Non-imaging,23,low vs high,generalization,0.7367612922419294,Fluid intelligence
+RandomForest,no,Non-imaging,24,low vs high,validation,0.6660884218873909,Fluid intelligence
+RandomForest,no,Non-imaging,24,low vs high,generalization,0.7382067070378098,Fluid intelligence
+RandomForest,no,Non-imaging,25,low vs high,validation,0.7359959555106168,Fluid intelligence
+RandomForest,no,Non-imaging,25,low vs high,generalization,0.7406141006721129,Fluid intelligence
+RandomForest,no,Non-imaging,26,low vs high,validation,0.7386003172085647,Fluid intelligence
+RandomForest,no,Non-imaging,26,low vs high,generalization,0.7370568340620754,Fluid intelligence
+RandomForest,no,Non-imaging,27,low vs high,validation,0.7217717717717717,Fluid intelligence
+RandomForest,no,Non-imaging,27,low vs high,generalization,0.7421074676176198,Fluid intelligence
+RandomForest,no,Non-imaging,28,low vs high,validation,0.6897696617555509,Fluid intelligence
+RandomForest,no,Non-imaging,28,low vs high,generalization,0.7393007989415297,Fluid intelligence
+RandomForest,no,Non-imaging,29,low vs high,validation,0.7055972482801751,Fluid intelligence
+RandomForest,no,Non-imaging,29,low vs high,generalization,0.7484048570634495,Fluid intelligence
+RandomForest,no,Non-imaging,30,low vs high,validation,0.6938988095238094,Fluid intelligence
+RandomForest,no,Non-imaging,30,low vs high,generalization,0.7349205168654561,Fluid intelligence
+RandomForest,no,Non-imaging,31,low vs high,validation,0.6629870129870129,Fluid intelligence
+RandomForest,no,Non-imaging,31,low vs high,generalization,0.7164168588014703,Fluid intelligence
+RandomForest,no,Non-imaging,32,low vs high,validation,0.6963366336633663,Fluid intelligence
+RandomForest,no,Non-imaging,32,low vs high,generalization,0.7312389661125094,Fluid intelligence
+RandomForest,no,Non-imaging,33,low vs high,validation,0.7353955375253549,Fluid intelligence
+RandomForest,no,Non-imaging,33,low vs high,generalization,0.7314620904005668,Fluid intelligence
+RandomForest,no,Non-imaging,34,low vs high,validation,0.6833333333333335,Fluid intelligence
+RandomForest,no,Non-imaging,34,low vs high,generalization,0.7408176526542004,Fluid intelligence
+RandomForest,no,Non-imaging,35,low vs high,validation,0.7250453720508166,Fluid intelligence
+RandomForest,no,Non-imaging,35,low vs high,generalization,0.7362661129008897,Fluid intelligence
+RandomForest,no,Non-imaging,36,low vs high,validation,0.7096622889305815,Fluid intelligence
+RandomForest,no,Non-imaging,36,low vs high,generalization,0.7365694836434239,Fluid intelligence
+RandomForest,no,Non-imaging,37,low vs high,validation,0.7013142174432497,Fluid intelligence
+RandomForest,no,Non-imaging,37,low vs high,generalization,0.7385100777803439,Fluid intelligence
+RandomForest,no,Non-imaging,38,low vs high,validation,0.7757242757242757,Fluid intelligence
+RandomForest,no,Non-imaging,38,low vs high,generalization,0.7483206961477786,Fluid intelligence
+RandomForest,no,Non-imaging,39,low vs high,validation,0.7018302493966211,Fluid intelligence
+RandomForest,no,Non-imaging,39,low vs high,generalization,0.7288110215569379,Fluid intelligence
+RandomForest,no,Non-imaging,40,low vs high,validation,0.7119871279163315,Fluid intelligence
+RandomForest,no,Non-imaging,40,low vs high,generalization,0.7390248294273535,Fluid intelligence
+RandomForest,no,Non-imaging,41,low vs high,validation,0.7441964285714284,Fluid intelligence
+RandomForest,no,Non-imaging,41,low vs high,generalization,0.7467793770526455,Fluid intelligence
+RandomForest,no,Non-imaging,42,low vs high,validation,0.6778459372485921,Fluid intelligence
+RandomForest,no,Non-imaging,42,low vs high,generalization,0.7347884038001589,Fluid intelligence
+RandomForest,no,Non-imaging,43,low vs high,validation,0.7042939126870258,Fluid intelligence
+RandomForest,no,Non-imaging,43,low vs high,generalization,0.7487679233391918,Fluid intelligence
+RandomForest,no,Non-imaging,44,low vs high,validation,0.7414101290963258,Fluid intelligence
+RandomForest,no,Non-imaging,44,low vs high,generalization,0.7359705710807436,Fluid intelligence
+RandomForest,no,Non-imaging,45,low vs high,validation,0.6889540664147942,Fluid intelligence
+RandomForest,no,Non-imaging,45,low vs high,generalization,0.7321931160285442,Fluid intelligence
+RandomForest,no,Non-imaging,46,low vs high,validation,0.7071166020012252,Fluid intelligence
+RandomForest,no,Non-imaging,46,low vs high,generalization,0.7432054739825338,Fluid intelligence
+RandomForest,no,Non-imaging,47,low vs high,validation,0.7378611556982343,Fluid intelligence
+RandomForest,no,Non-imaging,47,low vs high,generalization,0.7438288519276763,Fluid intelligence
+RandomForest,no,Non-imaging,48,low vs high,validation,0.7241741741741741,Fluid intelligence
+RandomForest,no,Non-imaging,48,low vs high,generalization,0.7268107318868096,Fluid intelligence
+RandomForest,no,Non-imaging,49,low vs high,validation,0.6806298276886512,Fluid intelligence
+RandomForest,no,Non-imaging,49,low vs high,generalization,0.7453378767179591,Fluid intelligence
+RandomForest,no,Non-imaging,50,low vs high,validation,0.6912871287128712,Fluid intelligence
+RandomForest,no,Non-imaging,50,low vs high,generalization,0.7362142462900695,Fluid intelligence
+RandomForest,no,Non-imaging,51,low vs high,validation,0.7016516516516516,Fluid intelligence
+RandomForest,no,Non-imaging,51,low vs high,generalization,0.7325326955371227,Fluid intelligence
+RandomForest,no,Non-imaging,52,low vs high,validation,0.7347144006436042,Fluid intelligence
+RandomForest,no,Non-imaging,52,low vs high,generalization,0.73547147727851,Fluid intelligence
+RandomForest,no,Non-imaging,53,low vs high,validation,0.7254901960784312,Fluid intelligence
+RandomForest,no,Non-imaging,53,low vs high,generalization,0.7338381683453181,Fluid intelligence
+RandomForest,no,Non-imaging,54,low vs high,validation,0.7136110558759197,Fluid intelligence
+RandomForest,no,Non-imaging,54,low vs high,generalization,0.7412854307668821,Fluid intelligence
+RandomForest,no,Non-imaging,55,low vs high,validation,0.6916666666666667,Fluid intelligence
+RandomForest,no,Non-imaging,55,low vs high,generalization,0.7337383495848714,Fluid intelligence
+RandomForest,no,Non-imaging,56,low vs high,validation,0.6818181818181819,Fluid intelligence
+RandomForest,no,Non-imaging,56,low vs high,generalization,0.7358824957038789,Fluid intelligence
+RandomForest,no,Non-imaging,57,low vs high,validation,0.7255135920315418,Fluid intelligence
+RandomForest,no,Non-imaging,57,low vs high,generalization,0.7332392557826377,Fluid intelligence
+RandomForest,no,Non-imaging,58,low vs high,validation,0.6723201475712236,Fluid intelligence
+RandomForest,no,Non-imaging,58,low vs high,generalization,0.7313426993341502,Fluid intelligence
+RandomForest,no,Non-imaging,59,low vs high,validation,0.6662345432788193,Fluid intelligence
+RandomForest,no,Non-imaging,59,low vs high,generalization,0.7393487510911558,Fluid intelligence
+RandomForest,no,Non-imaging,60,low vs high,validation,0.7073195053849223,Fluid intelligence
+RandomForest,no,Non-imaging,60,low vs high,generalization,0.7503092424343252,Fluid intelligence
+RandomForest,no,Non-imaging,61,low vs high,validation,0.7210891089108913,Fluid intelligence
+RandomForest,no,Non-imaging,61,low vs high,generalization,0.7363581027389484,Fluid intelligence
+RandomForest,no,Non-imaging,62,low vs high,validation,0.7431691264459513,Fluid intelligence
+RandomForest,no,Non-imaging,62,low vs high,generalization,0.7288589737065643,Fluid intelligence
+RandomForest,no,Non-imaging,63,low vs high,validation,0.6609195402298852,Fluid intelligence
+RandomForest,no,Non-imaging,63,low vs high,generalization,0.7403430242344292,Fluid intelligence
+RandomForest,no,Non-imaging,64,low vs high,validation,0.7186813186813187,Fluid intelligence
+RandomForest,no,Non-imaging,64,low vs high,generalization,0.7352160586856021,Fluid intelligence
+RandomForest,no,Non-imaging,65,low vs high,validation,0.6224053724053724,Fluid intelligence
+RandomForest,no,Non-imaging,65,low vs high,generalization,0.7462881121728,Fluid intelligence
+RandomForest,no,Non-imaging,66,low vs high,validation,0.7465795384929549,Fluid intelligence
+RandomForest,no,Non-imaging,66,low vs high,generalization,0.7136375913537378,Fluid intelligence
+RandomForest,no,Non-imaging,67,low vs high,validation,0.6863553113553114,Fluid intelligence
+RandomForest,no,Non-imaging,67,low vs high,generalization,0.7383065257982564,Fluid intelligence
+RandomForest,no,Non-imaging,68,low vs high,validation,0.7002386160270432,Fluid intelligence
+RandomForest,no,Non-imaging,68,low vs high,generalization,0.7286074695748503,Fluid intelligence
+RandomForest,no,Non-imaging,69,low vs high,validation,0.702465834818776,Fluid intelligence
+RandomForest,no,Non-imaging,69,low vs high,generalization,0.7273098256890431,Fluid intelligence
+RandomForest,no,Non-imaging,70,low vs high,validation,0.7126068376068376,Fluid intelligence
+RandomForest,no,Non-imaging,70,low vs high,generalization,0.7332911223934582,Fluid intelligence
+RandomForest,no,Non-imaging,71,low vs high,validation,0.7150030744004919,Fluid intelligence
+RandomForest,no,Non-imaging,71,low vs high,generalization,0.7355869538837326,Fluid intelligence
+RandomForest,no,Non-imaging,72,low vs high,validation,0.7037537537537537,Fluid intelligence
+RandomForest,no,Non-imaging,72,low vs high,generalization,0.7421955429944844,Fluid intelligence
+RandomForest,no,Non-imaging,73,low vs high,validation,0.760992275698158,Fluid intelligence
+RandomForest,no,Non-imaging,73,low vs high,generalization,0.735634906033359,Fluid intelligence
+RandomForest,no,Non-imaging,74,low vs high,validation,0.6968582223105986,Fluid intelligence
+RandomForest,no,Non-imaging,74,low vs high,generalization,0.7416083738153861,Fluid intelligence
+RandomForest,no,Non-imaging,75,low vs high,validation,0.6843475597304473,Fluid intelligence
+RandomForest,no,Non-imaging,75,low vs high,generalization,0.7174189608671315,Fluid intelligence
+RandomForest,no,Non-imaging,76,low vs high,validation,0.7101587301587302,Fluid intelligence
+RandomForest,no,Non-imaging,76,low vs high,generalization,0.7402989865459968,Fluid intelligence
+RandomForest,no,Non-imaging,77,low vs high,validation,0.7090602696272799,Fluid intelligence
+RandomForest,no,Non-imaging,77,low vs high,generalization,0.7418324767187421,Fluid intelligence
+RandomForest,no,Non-imaging,78,low vs high,validation,0.7251705457463885,Fluid intelligence
+RandomForest,no,Non-imaging,78,low vs high,generalization,0.7267148275875568,Fluid intelligence
+RandomForest,no,Non-imaging,79,low vs high,validation,0.7364851485148515,Fluid intelligence
+RandomForest,no,Non-imaging,79,low vs high,generalization,0.7387977906781021,Fluid intelligence
+RandomForest,no,Non-imaging,80,low vs high,validation,0.7134619208590176,Fluid intelligence
+RandomForest,no,Non-imaging,80,low vs high,generalization,0.7480731064772591,Fluid intelligence
+RandomForest,no,Non-imaging,81,low vs high,validation,0.7212981744421907,Fluid intelligence
+RandomForest,no,Non-imaging,81,low vs high,generalization,0.7534437472354119,Fluid intelligence
+RandomForest,no,Non-imaging,82,low vs high,validation,0.67339618774339,Fluid intelligence
+RandomForest,no,Non-imaging,82,low vs high,generalization,0.7360224376915638,Fluid intelligence
+RandomForest,no,Non-imaging,83,low vs high,validation,0.6699896694214876,Fluid intelligence
+RandomForest,no,Non-imaging,83,low vs high,generalization,0.7142443328388065,Fluid intelligence
+RandomForest,no,Non-imaging,84,low vs high,validation,0.6995955510616785,Fluid intelligence
+RandomForest,no,Non-imaging,84,low vs high,generalization,0.7398635027381656,Fluid intelligence
+RandomForest,no,Non-imaging,85,low vs high,validation,0.6879464285714286,Fluid intelligence
+RandomForest,no,Non-imaging,85,low vs high,generalization,0.7456813706877317,Fluid intelligence
+RandomForest,no,Non-imaging,86,low vs high,validation,0.7359617682198327,Fluid intelligence
+RandomForest,no,Non-imaging,86,low vs high,generalization,0.756622289724931,Fluid intelligence
+RandomForest,no,Non-imaging,87,low vs high,validation,0.7413263283108644,Fluid intelligence
+RandomForest,no,Non-imaging,87,low vs high,generalization,0.7368170733139436,Fluid intelligence
+RandomForest,no,Non-imaging,88,low vs high,validation,0.692918630866981,Fluid intelligence
+RandomForest,no,Non-imaging,88,low vs high,generalization,0.7401032634862974,Fluid intelligence
+RandomForest,no,Non-imaging,89,low vs high,validation,0.6627063034400477,Fluid intelligence
+RandomForest,no,Non-imaging,89,low vs high,generalization,0.7416602404262066,Fluid intelligence
+RandomForest,no,Non-imaging,90,low vs high,validation,0.7276276276276276,Fluid intelligence
+RandomForest,no,Non-imaging,90,low vs high,generalization,0.7405387472941287,Fluid intelligence
+RandomForest,no,Non-imaging,91,low vs high,validation,0.6812334082091077,Fluid intelligence
+RandomForest,no,Non-imaging,91,low vs high,generalization,0.7318936597472041,Fluid intelligence
+RandomForest,no,Non-imaging,92,low vs high,validation,0.6737749546279492,Fluid intelligence
+RandomForest,no,Non-imaging,92,low vs high,generalization,0.7397754273613009,Fluid intelligence
+RandomForest,no,Non-imaging,93,low vs high,validation,0.6884722776226565,Fluid intelligence
+RandomForest,no,Non-imaging,93,low vs high,generalization,0.748600580123149,Fluid intelligence
+RandomForest,no,Non-imaging,94,low vs high,validation,0.6992492492492492,Fluid intelligence
+RandomForest,no,Non-imaging,94,low vs high,generalization,0.7359187044699232,Fluid intelligence
+RandomForest,no,Non-imaging,95,low vs high,validation,0.7393002028397566,Fluid intelligence
+RandomForest,no,Non-imaging,95,low vs high,generalization,0.7269222940308382,Fluid intelligence
+RandomForest,no,Non-imaging,96,low vs high,validation,0.7084826762246118,Fluid intelligence
+RandomForest,no,Non-imaging,96,low vs high,generalization,0.7312389661125094,Fluid intelligence
+RandomForest,no,Non-imaging,97,low vs high,validation,0.7165841584158417,Fluid intelligence
+RandomForest,no,Non-imaging,97,low vs high,generalization,0.7394926075400352,Fluid intelligence
+RandomForest,no,Non-imaging,98,low vs high,validation,0.7429429429429429,Fluid intelligence
+RandomForest,no,Non-imaging,98,low vs high,generalization,0.7384582111695235,Fluid intelligence
+RandomForest,no,Non-imaging,99,low vs high,validation,0.7099217495987159,Fluid intelligence
+RandomForest,no,Non-imaging,99,low vs high,generalization,0.7334388933035312,Fluid intelligence
