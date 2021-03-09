@@ -1,4 +1,4 @@
-# proxy_measures_2020
+# empirical_proxy_measures
 Approximating the proxy: Population modeling can enhance
 measures of mental health.
 
