@@ -81,21 +81,12 @@ stack_wide2 <- function(DT)
   setkey(DT_tmp, eid)
   DT_wide[DT_tmp, `:=`(FI = i.FI, FI_pred = i.FI_pred)]
 
-  DT_tmp <- DT[target == 'Neuroticism'][,
-      .(N = true, N_pred = predicted, eid = eid)]
-  setkey(DT_tmp, eid)
-  DT_wide[DT_tmp, `:=`(N = i.N, N_pred = i.N_pred)]
-
-  DT_tmp <- DT[target == 'Fluid intelligence'][,
-      .(FI = true, FI_pred = predicted, eid = eid)]
-  setkey(DT_tmp, eid)
-  DT_wide[DT_tmp, `:=`(FI = i.FI, FI_pred = i.FI_pred)]
   DT_wide
 }
 
-assemble_inputs <- function(fname)
+assemble_inputs <- function(fname, path)
 {
-  DT_pred <- read_file_parts(fname)
+  DT_pred <- read_file_parts(fname, path = path)
   DT_pred$variable <- NULL
   has_var <- "variable" %in% names(DT_pred)
 
@@ -186,7 +177,8 @@ fit_train_deconfound <- function(train, test, var, confound,
 }
 
 DT_pred_wide3_brain <- assemble_inputs(
-  'post_predictive_analysis_all_models_combined_imaging_non_imaging.csv')
+  'post_predictive_analysis_all_models_combined_imaging_non_imaging.csv',
+  path = extra_path)
 
 #' Get point estimates + standard outputs for conditional target model
 DT_corr3_proxy <- DT_pred_wide3_brain[,

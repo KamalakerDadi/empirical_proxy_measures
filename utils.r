@@ -195,8 +195,8 @@ fit_train_deconfound <- function(train, test, var, confound,
   list(pred = predict(mod_confound, test),
        mod = mod_confound)
 }
-read_file_parts <- function(fname){
+read_file_parts <- function(fname, path){
   fnames <- list.files(
-    'inputs', paste0(strsplit(fname, ".csv")[[1]], "_"), full.names = T)
+    path, paste0(strsplit(fname, ".csv")[[1]], "_"), full.names = T)
   rbindlist(lapply(fnames, fread))
 }
