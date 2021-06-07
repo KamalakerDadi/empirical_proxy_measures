@@ -33,8 +33,8 @@ for curve_type in ['train', 'validation']:
     for i, target in enumerate(targets):
         data = {}
         this_sizes = train_sizes[target]
-        scores = pd.read_csv('{}_scores_predicted_{}.csv'.format(curve_type,
-                                                                 target))
+        scores = pd.read_csv('inputs/{}_scores_predicted_{}.csv'.format(curve_type,
+                                                                        target))
         scores = scores.drop('Unnamed: 0', axis=1)
         scores_mean, scores_std = compute_mean_std_r2_scores(scores)
         data['mean'] = scores_mean

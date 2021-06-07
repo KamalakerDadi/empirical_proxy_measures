@@ -3,7 +3,6 @@ from os.path import join
 import collections
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 from itertools import chain
 from sklearn.model_selection import train_test_split
@@ -19,25 +18,28 @@ from ukbb_variables import (brain_dmri_fa, brain_dmri_icvf,
                             brain_dmri_isovf, brain_dmri_l1,
                             brain_dmri_l2, brain_dmri_l3,
                             brain_dmri_md, brain_dmri_mo,
-                            brain_dmri_od, brain_smri_plus,
+                            brain_dmri_od, brain_smri_plus, neuroticism,
                             earlylife, fluid_intelligence,
-                            education, lifestyle, mental_health)
+                            education, lifestyle, mental_health,
+                            primary_demographics)
 path_to_csv = '/storage/store/work/kdadi/rs_study/experiments/UKBB/ukb9543.csv'
 path_to_matrices = '/storage/store/derivatives/UKBB/rfMRI_tangent_matrix_dim100/'
 path_to_merge_brain = '/storage/store/work/kdadi/rs_study/experiments/UKBB/para/roadmap/ukb_add1_merge_brain.csv'
 X_iterate = zip([brain_dmri_fa, brain_dmri_icvf, brain_dmri_isovf, brain_dmri_l1,
                  brain_dmri_l2, brain_dmri_l3, brain_dmri_md, brain_dmri_mo,
-                 brain_dmri_od, brain_smri_plus, earlylife, fluid_intelligence,
-                 education, lifestyle, mental_health],
+                 brain_dmri_od, brain_smri_plus, fluid_intelligence,
+                 neuroticism, earlylife, education, lifestyle, mental_health,
+                 primary_demographics],
                  ['fa', 'icvf', 'isovf', 'l1', 'l2', 'l3', 'md', 'mo', 'od',
-                  'smri', 'Earlylife', 'Fluid \n intelligence', 'EDU', 'LS', 'MH'])
+                  'smri', 'Fluid \n intelligence', 'Neuroticism', 'Earlylife',
+                  'Education', 'Lifestyle', 'MH', 'Age'])
 
 columns = []
 for i in X_iterate:
     columns.extend(i[0].keys())
-columns.extend(['eid', '21022-0.0'])
+columns.extend(['eid'])
 
-ukbb = pd.read_csv(path_to_csv, usecols=['20016-2.0', 'eid', '21022-0.0'])
+ukbb = pd.read_csv(path_to_csv, usecols=['20016-2.0', 'eid', '20127-0.0'])
 y = ukbb[['eid', '20016-2.0']].dropna()
 new_ukbb = pd.DataFrame(ukbb, index=y.index)
 
@@ -47,9 +49,8 @@ new_ukbb = new_ukbb.drop(columns=['20016-2.0'], errors='ignore')
 X_train, X_test, y_train, y_test = train_test_split(
     new_ukbb, y, test_size=0.5, random_state=0)
 
-X_train = X_train.dropna(subset=['21022-0.0'])
-X_test = X_test.dropna(subset=['21022-0.0'])
-
+X_train = X_train.dropna()
+X_test = X_test.dropna()
 
 merged_data = pd.read_csv(path_to_merge_brain, usecols=columns)
 
@@ -83,7 +84,7 @@ def load_combine_data(X_split, merged_data, dmri):
                 connectomes.append(np.loadtxt(this_path))
 
     X_split = pd.concat(data_frame)
-    y_split = pd.DataFrame(X_split, columns=['21022-0.0'])
+    y_split = pd.DataFrame(X_split, columns=['20127-0.0'])
 
     connectomes = pd.DataFrame(connectomes, index=X_split.index)
     df = pd.concat([X_split, connectomes], axis=1)
@@ -93,12 +94,12 @@ df, y_train = load_combine_data(X_train, merged_data, dmri)
 
 df_test, y_test = load_combine_data(X_test, merged_data, dmri)
 
-X_iterate = zip([earlylife, education, lifestyle, mental_health],
-                 ['Earlylife', 'Edu', 'ls', 'mh'])
+X_iterate = zip([earlylife, education, lifestyle, mental_health, primary_demographics],
+                 ['Earlylife', 'Edu', 'ls', 'mh', 'age'])
 new_columns = []
 for i in X_iterate:
     new_columns.extend(i[0].keys())
-new_columns.extend(['eid', '21022-0.0'])
+new_columns.extend(['eid', '20127-0.0'])
 
 df = pd.DataFrame(df, columns=new_columns)
 df_test = pd.DataFrame(df_test, columns=new_columns)
@@ -106,15 +107,15 @@ df_test = pd.DataFrame(df_test, columns=new_columns)
 X_train_post_hoc = df
 X_test_post_hoc = df_test
 
-df = df.drop(columns=['eid', '21022-0.0'], axis=1)
-df_test = df_test.drop(columns=['eid', '21022-0.0'], axis=1)
+df = df.drop(columns=['eid', '20127-0.0'], axis=1)
+df_test = df_test.drop(columns=['eid', '20127-0.0'], axis=1)
 
 # Learning curves: train sizes
-train_sizes = [100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 3700]
+train_sizes = [100, 500, 1000, 1500, 2000, 2500, 3000, 3195]
+
 # Model
 estimator = RandomForestRegressor(n_estimators=250, criterion='mse',
                                   n_jobs=10, verbose=1, random_state=0)
-
 pipeline = Pipeline([
     ('imputation', make_union(SimpleImputer(strategy="median"),
                               MissingIndicator(error_on_new=False))),
@@ -124,23 +125,16 @@ cv = ShuffleSplit(n_splits=100, test_size=0.1, random_state=0)
 
 param_grid = {'estimator__max_depth': [5, 10, 20, 40, None],
               'estimator__max_features': [1, 5, 'log2', 'sqrt', 'auto', None]}
-
 grid_search = GridSearchCV(pipeline, param_grid=param_grid,
-                           cv=5, verbose=2)
+                           cv=5, verbose=2, n_jobs=10)
 metrics = []
+
 train_sizes, train_scores, validation_scores = learning_curve(
         estimator=grid_search, X=df, y=y_train,
         train_sizes=train_sizes, cv=cv, scoring='r2')
 
-train_scores_mean = train_scores.mean(axis = 1)
-validation_scores_mean = validation_scores.mean(axis = 1)
+train_scores = pd.DataFrame(train_scores)
+train_scores.to_csv('inputs/train_scores_predict_neuroticism.csv')
 
-plt.style.use('seaborn')
-plt.plot(train_sizes, train_scores_mean, label = 'Training error')
-plt.plot(train_sizes, validation_scores_mean, label = 'Validation error')
-
-plt.ylabel('R-squared', fontsize = 14)
-plt.xlabel('Training set size', fontsize = 14)
-plt.title('Learning curves', fontsize = 18, y = 1.03)
-plt.legend()
-
+validation_scores = pd.DataFrame(validation_scores)
+validation_scores.to_csv('inputs/validation_scores_predict_neuroticism.csv')
