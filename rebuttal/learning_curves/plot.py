@@ -15,7 +15,7 @@ plt.style.use('seaborn')
 colors = {'train': 'r',
           'validation': 'g'}
 
-fig, axes = plt.subplots(figsize=(10, 4), ncols=4, sharey=True)
+fig, axes = plt.subplots(figsize=(10, 4), ncols=3, sharey=True)
 
 for learning_type in learning_types:
     this_type_data = df[df['learning_type'] == learning_type]
@@ -30,7 +30,7 @@ for learning_type in learning_types:
                 alpha=0.2, color=colors[learning_type])
         if i == 0:
             ax.set_ylabel('$R^{2}$', fontsize = 18)
-        elif i == 2:
+        elif i == 1:
             ax.set_xlabel('Training sizes', fontsize = 18)
         ax.set_title(target, fontsize=18)
 plt.legend()

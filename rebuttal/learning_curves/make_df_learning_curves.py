@@ -21,7 +21,7 @@ train_sizes = {'age': [100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 3700],
                'fluid_intelligence': [100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 3700],
                'neuroticism': [100, 500, 1000, 1500, 2000, 2500, 3000, 3195]}
 
-targets = ['age_at_assessment', 'age', 'fluid_intelligence', 'neuroticism']
+targets = ['age_at_assessment', 'fluid_intelligence', 'neuroticism']
 
 colors = {'train': 'r',
           'validation': 'g'}
@@ -33,7 +33,7 @@ for curve_type in ['train', 'validation']:
     for i, target in enumerate(targets):
         data = {}
         this_sizes = train_sizes[target]
-        scores = pd.read_csv('inputs/{}_scores_predicted_{}.csv'.format(curve_type,
+        scores = pd.read_csv('inputs/{}_scores_predict_{}.csv'.format(curve_type,
                                                                         target))
         scores = scores.drop('Unnamed: 0', axis=1)
         scores_mean, scores_std = compute_mean_std_r2_scores(scores)
