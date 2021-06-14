@@ -77,18 +77,6 @@ earlylife = OrderedDict([
 ])
 
 mental_health = OrderedDict([
-    ('1920-2.0', 'Mood swings'),
-    ('1930-2.0', 'Miserableness'),
-    ('1940-2.0', 'Irritability'),
-    ('1950-2.0', 'Sensitivity/ hurt feelings'),
-    ('1960-2.0', 'Fed-up feelings'),
-    ('1970-2.0', 'Nervous feelings'),
-    ('1980-2.0', 'Worrier/ anxious feelings'),
-    ('1990-2.0', 'Tense/ "highly strung"'),
-    ('2000-2.0', 'Worry too long after embarassment'),
-    ('2010-2.0', "Suffer from 'nerves'"),
-    ('2020-2.0', 'Loneliness, isolation'),
-    ('2030-2.0', 'Guilty feelings'),
     ('2040-2.0', 'Risk taking'),
     ('4526-2.0', 'Happiness'),
     ('4537-2.0', 'Work/job satisfaction'),
@@ -113,7 +101,7 @@ mental_health = OrderedDict([
     ('5663-2.0', 'Length of longest manic/irritable episode'),
     ('5674-2.0', 'Severity of manic/irritable episode'),
     ('6145-2.0', 'Illness, injury, bereavement, stress in last 2 years'),
-    ('6156-2.0', 'Manic/hyper symptoms'),
+    ('6156-2.0', 'Manic/hyper symptoms')
 ])
 
 fluid_intelligence = OrderedDict([
