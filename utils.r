@@ -98,7 +98,6 @@ stack_wide <- function(DT)
 }
 
 
-
 get_extras2 <- function(path)
 {
   # extra files
@@ -167,7 +166,6 @@ get_extras2 <- function(path)
   DTS
 }
 
-
 fit_train_deconfound <- function(train, test, var, confound,
                                  default.fml = "%s ~ poly(%s, degree = 2)")
 {
@@ -180,7 +178,7 @@ fit_train_deconfound <- function(train, test, var, confound,
   train[[conf_s]] <- scale(train[[confound]])
 
   fml <- as.formula(
-    sprintf(default.fml, var_s, conf_s, env = train))
+    sprintf(default.fml, var_s, conf_s))
   mod_confound <- lm(fml, train)
 
   # apply on test set
