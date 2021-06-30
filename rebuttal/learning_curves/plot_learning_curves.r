@@ -17,9 +17,10 @@ fig <- ggplot(
   geom_line(size = 1.3) +
   geom_ribbon(mapping = aes(ymin = mean -std, ymax = mean + std),
             alpha = 0.2, size = 0.2) +
-  scale_color_manual(values = with(color_cats, c(vermillon, `sky blue`))
+  scale_color_manual(values = with(color_cats, c(vermillon, `sky blue`))) +
+  scale_fill_manual(values = with(color_cats, c(vermillon, `sky blue`))) +
   my_theme +
   labs(x = "# training samples", y = expression(R^2 ~ "score")) +
   theme(legend.title = element_blank(), legend.position="bottom")
 
-my_ggsave("suppmat_learning_curves", fig, width = 10, height = 5)
+my_ggsave("fig_1-supp-1", fig, width = 10, height = 5)
