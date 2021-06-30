@@ -6,8 +6,8 @@ source('../../config.r')
 df <- fread('learning_curves.csv')
 df[,learning_type := factor(learning_type, levels = c("train", "validation"))] 
 df[target=="Age at assessment", target := "Age"]
-df[learning_type=="train", learning_type := "Validation"]
-df[learning_type=="validation", learning_type := "Generalization"]
+df[learning_type=="train", learning_type := "Training"]
+df[learning_type=="validation", learning_type := "Testing"]
 
 fig <- ggplot(
   data = df,
