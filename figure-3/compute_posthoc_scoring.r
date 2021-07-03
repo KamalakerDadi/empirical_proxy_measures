@@ -18,7 +18,7 @@
 
 library(data.table)
 library(future.apply)
-source("../utils.r")
+source("../../utils.r")
 plan(multiprocess, workers = 4) 
 
 par_sapply <- function(...) future_sapply(..., future.seed = T)
@@ -27,7 +27,7 @@ base_path <- 'post_predictive_analysis_%s.csv'
 
 get_inputs <- function(fname, input_type)
 {
-  DT <- read_file_parts(fname)
+  DT <- read_file_parts(fname, path = './inputs/')
   # kick out unneccesary variables and average over folds (shuffle splits..).
   DT <- DT[,
     .(predicted = mean(predicted), true = true[1]),
@@ -37,7 +37,7 @@ get_inputs <- function(fname, input_type)
 }
 
 DT <- rbind(
-  get_inputs(sprintf(base_path, "non_imaging_fresh"), "social"),
+  get_inputs(sprintf(base_path, "non_imaging"), "social"),
   get_inputs(sprintf(base_path, "imaging_non_imaging"), "social_brain")
 )
 

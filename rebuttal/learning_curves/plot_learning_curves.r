@@ -14,13 +14,15 @@ fig <- ggplot(
   mapping = aes(x = train_sizes, y = mean, color = learning_type,
                 fill = learning_type)) +
   facet_wrap(.~target) +
-  geom_line(size = 1.3) +
+  geom_line(size = 1.4) +
   geom_ribbon(mapping = aes(ymin = mean -std, ymax = mean + std),
-            alpha = 0.2, size = 0.2) +
+              alpha = 0.2, size = 0.3) +
   scale_color_manual(values = with(color_cats, c(vermillon, `sky blue`))) +
   scale_fill_manual(values = with(color_cats, c(vermillon, `sky blue`))) +
   my_theme +
+  coord_cartesian(xlim = c(0, 3100)) +
+  scale_x_continuous(limits = c(0, 3000)) +
   labs(x = "# training samples", y = expression(R^2 ~ "score")) +
-  theme(legend.title = element_blank(), legend.position="bottom")
+  theme(legend.title = element_blank(), leg end.position="bottom")
 
-my_ggsave("fig_1-supp-1", fig, width = 10, height = 5)
+my_ggsave("fig_1-supp-1", fig, width = 11, height = 5)
