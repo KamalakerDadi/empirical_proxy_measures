@@ -21,7 +21,7 @@ train_sizes = {'age': [100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 3700],
                'fluid_intelligence': [100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 3700],
                'neuroticism': [100, 500, 1000, 1500, 2000, 2500, 3000, 3195]}
 
-targets = ['age_at_assessment', 'fluid_intelligence', 'neuroticism']
+targets = ['age', 'fluid_intelligence', 'neuroticism']
 
 colors = {'train': 'r',
           'validation': 'g'}
