@@ -102,10 +102,10 @@ this_colors <- with(color_cats, c(orange, `blueish green`, blue))
 
 family_levels <- rev(c("Smoking", "Sleep", "Activity", "Alcohol"))
 family_labels <- rev(c(
-  "# Cigarettes \n smoked\n(Pack-Years)",
-  "Sleep \nduration \n(hours)",
-  "Metabolic \nEquivalent Task \n(minutes/week)",
-  "# Alcoholic \nbeverages"
+  "# cigarettes \n smoked\n(pack-years)",
+  "sleep \nduration \n(hours)",
+  "metabolic \nequivalent task \n(minutes/week)",
+  "# alcoholic \nbeverages"
 ))
 dt_bs$family <- factor(
   dt_bs$family, levels = family_levels, labels = family_labels) 
