@@ -1,9 +1,9 @@
 # empirical_proxy_measures
 
-Populationmodeling withmachine learning can enhancemeasures of mental health.
+This repository included code and aggregated results from the forthcoming paper:
 
-Authors: Kamalaker Dadi, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok,
- Bertrand Thirion, Denis Engemann, 2020, Submitted to journal.
+Populationmodeling with machine learning can enhancemeasures of mental health. (2021). Kamalaker Dadi, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok,
+ Bertrand Thirion, Denis Engemann.
 
 ## code and data sharing
 
@@ -17,7 +17,7 @@ For all main figures and most supplementary figures, we shared aggregate results
 
 ### model predictions
 
-Some of the scripts refer to input files with a `"post_predictive*.csv"` naming pattern. Thes files contain the model predictions (both left-out fold and held-out generalization dataset) alongside the true values for age, fluid intelligence and neuroticism from each fold from the cross-validation procedure performed on the data used for model construction.
+Some of the scripts refer to input files with a `"post_predictive*.csv"` naming pattern. Thes files contain intermediate model predictions (both left-out fold and held-out generalization dataset) alongside the true values for age, fluid intelligence and neuroticism from each fold from the cross-validation procedure performed on the data used for model construction. Thes predictions can be computed using the scripts inside the folder `compute_predictive_models` based on the original input data available from UK Biobank.
 
 The table below gives a summary of the structure and data types of the results.
 
@@ -28,7 +28,7 @@ The table below gives a summary of the structure and data types of the results.
 
 ### validation against health data
 
-For some of the analyses, model predictions were validated against external health data.
+For some of the analyses, model predictions were validated against external health data available from the UK Biobank.
 The tables below show the file structure for the respective inputs and health domains.
 
 `alcohol.csv`
