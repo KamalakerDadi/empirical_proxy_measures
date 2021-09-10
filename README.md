@@ -58,6 +58,7 @@ The tables below show the file structure for the respective inputs and health do
 ## plotting the figures
 
 To plot the figures, please cd into the respective figure folder and run the plotting scripts.
+Plotting scripts have the naming convention `plot_*.r` or `plot_*.py`.
 
 Note that the final figures included in the paper have sometimes benefitted from aesthetic customizations using an illustrator software.
 
