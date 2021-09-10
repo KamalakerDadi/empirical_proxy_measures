@@ -54,3 +54,12 @@ The tables below show the file structure for the respective inputs and health do
 |eid     |20161-0.0 |20162-0.0 |variable  |
 |:-------|:---------|:---------|:---------|
 |integer |double    |double    |character |
+
+## plotting the figures
+
+To plot the figures, please cd into the respective figure folder and run the plotting scripts.
+
+Note that the final figures included in the paper have sometimes benefitted from aesthetic customizations using an illustrator software.
+
+Also not that supplementary figures (S2) and the concept figure (figur 1) makes use of individual-level data that is only accessible via the UK Biobank.
+Aggregation was not possible in these two exceptions.
