@@ -1,4 +1,4 @@
-# empirical_proxy_measures
+# Empirical Proxy Measures Paper Code and Results
 
 This repository included code and aggregated results from the forthcoming paper:
 
