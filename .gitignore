@@ -1,0 +1,11 @@
+.DS_Store
+.Rhistory
+post_predictive*csv
+*.png
+*.pdf
+*.pyc
+sociodemographics_correlation_input.npy
+alcohol.csv
+physical_activity.csv
+sleep.csv
+smoking.csv

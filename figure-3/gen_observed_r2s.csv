@@ -1,0 +1,29 @@
+target,variable,r2_score,imaging
+Age,Early Life,0.520828720289752,yes
+Age,Early Life,0.0269039431324509,no
+Age,Life style,0.676516711176022,yes
+Age,Life style,0.605096270562558,no
+Age,Education,0.521129004756492,yes
+Age,Education,0.0632783753368544,no
+Age,Mental Health,0.566459055997057,yes
+Age,Mental Health,0.272655133479191,no
+Fluid intelligence,"Age, Sex",0.0614841418235628,yes
+Fluid intelligence,"Age, Sex",0.0130841379364054,no
+Fluid intelligence,Early Life,0.0621028690267798,yes
+Fluid intelligence,Early Life,0.0234743209002173,no
+Fluid intelligence,Life style,0.0903503476970504,yes
+Fluid intelligence,Life style,0.0605033753482417,no
+Fluid intelligence,Education,0.170519026029644,yes
+Fluid intelligence,Education,0.152787150702007,no
+Fluid intelligence,Mental Health,0.0655791525804899,yes
+Fluid intelligence,Mental Health,0.0343667811681291,no
+Neuroticism,"Age, Sex",0.0256856163997301,yes
+Neuroticism,"Age, Sex",0.0242236731837983,no
+Neuroticism,Early Life,0.0147357802275192,yes
+Neuroticism,Early Life,0.00469897837018429,no
+Neuroticism,Life style,0.0300863374377911,yes
+Neuroticism,Life style,0.0385072740395735,no
+Neuroticism,Education,0.0148465408033973,yes
+Neuroticism,Education,0.00543529499915929,no
+Neuroticism,Mental Health,0.2935393823545,yes
+Neuroticism,Mental Health,0.323080809598076,no
